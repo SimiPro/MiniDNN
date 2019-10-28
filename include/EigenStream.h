@@ -40,7 +40,7 @@ class EigenStream
         static void exportMatrix(Eigen::MatrixXd& matrix, std::string Name,
                                  std::string type = "python", std::string folder = "./Model")
         {
-            mkdir(folder.c_str(), ACCESSPERMS);
+            //mkdir(folder.c_str(), ACCESSPERMS);
             std::string est;
 
             if (type == "python")
